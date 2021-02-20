@@ -13,3 +13,5 @@ sudo mysql_secure_installation -y
 #cover your tracks
 history -c
 
+sudo apt update -y 
+sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip -y
