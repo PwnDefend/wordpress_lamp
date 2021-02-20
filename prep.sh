@@ -33,3 +33,5 @@ GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 
+chown -Rf www-data.www-data /var/www/html/
+
